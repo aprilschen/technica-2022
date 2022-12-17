@@ -1,0 +1,65 @@
+{
+  "name": "client_m",
+  "version": "0.1.0",
+  "private": true,
+  "keywords": [
+    "google",
+    "javascript",
+    "maps",
+    "samples"
+  ],
+  "files": [],
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build --outDir dist --base './'",
+    "test": "tsc --no-emit",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.50.4",
+    "@vitejs/plugin-react": "1.1.1",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.7"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "child-process": "latest",
+    "google-maps-react": "^2.0.6",
+    "pg": "^8.8.0",
+    "pg-connection-string": "latest",
+    "prompt": "latest",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sequelize": "^6.17.0",
+    "sequelize-cockroachdb": "^6.0.5",
+    "uuid": "latest",
+    "web-vitals": "^2.1.4"
+  }
+}
